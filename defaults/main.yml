@@ -1,10 +1,10 @@
 ---
 
 awsagent_install_dir: "/var/tmp/awsagent"
-awsagent_install_script_url: "https://d1wk0tztpsntt1.cloudfront.net/linux/latest/install"
-awsagent_signing_key_url: "https://d1wk0tztpsntt1.cloudfront.net/linux/latest/inspector.gpg"
+awsagent_install_script_url: "https://inspector-agent.amazonaws.com/linux/latest/install"
+awsagent_signing_key_url: "https://inspector-agent.amazonaws.com/linux/latest/inspector.gpg"
 awsagent_signing_key: "/var/tmp/inspector.gpg"
-awsagent_install_script_signature_url: "https://d1wk0tztpsntt1.cloudfront.net/linux/latest/install.sig"
+awsagent_install_script_signature_url: "https://inspector-agent.amazonaws.com/linux/latest/install.sig"
 awsagent_dependencies:
   - curl
   - libcurl3
