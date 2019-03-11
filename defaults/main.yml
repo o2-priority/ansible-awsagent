@@ -13,3 +13,6 @@ awsagent_dependencies:
   - libstdc++6
   - libssl1.0.0
   - libpcap0.8
+
+awsagent_enabled: "yes"
+awsagent_service_state: "started"

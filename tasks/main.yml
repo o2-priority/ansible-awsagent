@@ -78,5 +78,8 @@
   when: install|changed and install.stdout|search("Installation script completed successfully.")
 
 - name: Start amazon inspector agent
-  service: name=awsagent enabled=yes state=started
+  service: 
+    name: awsagent
+    enabled: "{{ awsagent_enabled }}"
+    state: "{{ awsagent_service_state }}"
   when: ansible_bios_version|search('amazon')
