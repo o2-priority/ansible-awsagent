@@ -1,0 +1,9 @@
+---
+awsagent_dependencies:
+  - curl
+  - libcurl3
+  - libgcc1
+  - libc6
+  - libstdc++6
+  - libssl1.0.0
+  - libpcap0.8

@@ -1,6 +1,12 @@
-require 'spec_helper'
+require '/tmp/kitchen/spec/spec_helper.rb'
 
-describe package('awsagent') do
+package_name = 'awsagent'
+
+if os[:family] =~ /centos|redhat/
+  package_name = 'AwsAgent'
+end
+
+describe package(package_name) do
   it { should be_installed }
 end
 

@@ -12,7 +12,7 @@ Ansible role to install and configure Amazon Inspector agent.
   vars:
     
   roles:
-    - wunzeco.awsagent
+    - o2-priority.awsagent
 ```
 
 
