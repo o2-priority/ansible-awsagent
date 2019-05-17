@@ -10,4 +10,3 @@
     is_aws_environment: "{{ aws_uri_check.status == 200 }}"
 
 - include: install.yml
-  when: is_aws_environment

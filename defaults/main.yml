@@ -5,14 +5,7 @@ awsagent_install_script_url: "https://inspector-agent.amazonaws.com/linux/latest
 awsagent_signing_key_url: "https://inspector-agent.amazonaws.com/linux/latest/inspector.gpg"
 awsagent_signing_key: "/var/tmp/inspector.gpg"
 awsagent_install_script_signature_url: "https://inspector-agent.amazonaws.com/linux/latest/install.sig"
-awsagent_dependencies:
-  - curl
-  - libcurl3
-  - libgcc1
-  - libc6
-  - libstdc++6
-  - libssl1.0.0
-  - libpcap0.8
+awsagent_dependencies: []
 
 awsagent_enabled: "yes"
 awsagent_service_state: "started"
